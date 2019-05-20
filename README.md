@@ -67,18 +67,23 @@ The last line specified that there must be a horizontal ship starting from locat
 ## Inputs with Unknown Sums or Unknown Ship Types
 for example:<br />
 
-board 4 5
-rows ? 0 2 1
-cols 1 2 1 ? 1
-cruiser
-destroyer
-submarine
-unknown
-constraint 0 2 <
+board 4 5<br />
+rows ? 0 2 1<br />
+cols 1 2 1 ? 1<br />
+cruiser<br />
+destroyer<br />
+submarine<br />
+unknown<br />
+constraint 0 2 <<br />
 
 The ? might range from 1 to 7
 
 
 
 # What I Learned
-* Recursion
+* Use C++ to create customed **_class_** and **_header file_**, define member functions
+* **_Pointers_** vs **_Reference_**, copy **_by value_** vs **_by reference_**
+* Use data structures such as **_std vector_**, **_std list_**, **_iterator_** in C++
+* **_File I/O_** and **_string parsing_** in C++
+* **_Recursion_**
+* **Dynamic Memory** and use Dr.Memory to debug **memory leak**
