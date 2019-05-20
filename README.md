@@ -8,7 +8,8 @@ A program in C++ which can not only solve a battleship puzzle, but can also gene
 ## Input
 The command line accept 1 or 2 line arguments, the first arguement is the name of a battleship puzzle board file.
 Example of command line:<br />
-*./main.exe puzzle_sample.txt*
+
+__*./main.exe* *puzzle_sample.txt*__
 
 Example of puzzle board input file as below:
 
