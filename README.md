@@ -6,10 +6,12 @@ A program in C++ which can not only solve a battleship puzzle, but can also gene
 
 # How to Play
 ## Input
-The command line accept 1 or 2 line arguments, the first arguement is the name of a battleship puzzle board file.
+The command line accept 1 or 2 line arguments, the first arguement is the name of a battleship puzzle board file.There is a __optional__ section arguement "find_all_solutions"
 Example of command line:<br />
 
-__*./main.exe*&nbsp;&nbsp;*puzzle_sample.txt*__
+__*./main.exe*&nbsp;&nbsp;*puzzle_sample.txt*__<br />
+or:<br />
+__*./main.exe*&nbsp;&nbsp;*puzzle_sample.txt*&nbsp;*find_all_solutions*__<br />
 
 Example of puzzle board input file as below:
 
