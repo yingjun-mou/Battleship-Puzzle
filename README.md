@@ -8,7 +8,7 @@ A program in C++ which can not only solve a battleship puzzle, but can also gene
 ## Input
 The command line accept 1 or 2 line arguments, the first arguement is the name of a battleship puzzle board file similar as below:
 
-board 4 5
+board 4 5/n
 rows 4 0 2 1
 cols 1 2 1 2 1
 cruiser
