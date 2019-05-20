@@ -9,7 +9,7 @@ A program in C++ which can not only solve a battleship puzzle, but can also gene
 The command line accept 1 or 2 line arguments, the first arguement is the name of a battleship puzzle board file.
 Example of command line:<br />
 
-__*./main.exe* *puzzle_sample.txt*__
+__*./main.exe*&nbsp;&nbsp;*puzzle_sample.txt*__
 
 Example of puzzle board input file as below:
 
@@ -33,6 +33,20 @@ cargo: \<XXXX\> <br />
 tanker: \<XXXXX\> <br />
 
 ## Output
+Place the ships on the board satisfying the counts for each row while no two ships may occupy adjacent cells (including the diagonal). The sample output below shows one of the possible solutions:<br />
+
+Solution:<br />
+cruiser   0 0 horizontal<br />
+submarine 0 4<br />
+submarine 2 1<br />
+destroyer 2 3 vertical<br />
++-----+<br />
+|\<X\>&nbsp;o|4<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|0<br />
+|&nbsp;&nbsp;o &nbsp;^&nbsp;|2<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v&nbsp;|1<br />
++-----+<br />
+&nbsp;12121<br />
 
 # What I Learned
 * Recursion
