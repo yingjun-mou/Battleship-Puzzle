@@ -11,7 +11,7 @@ Example of command line:<br />
 
 __*./main.exe*&nbsp;&nbsp;*puzzle_sample.txt*__<br />
 or:<br />
-__*./main.exe*&nbsp;&nbsp;*puzzle_sample.txt*&nbsp;*find_all_solutions*__<br />
+__*./main.exe*&nbsp;&nbsp;*puzzle_sample.txt*&nbsp;&nbsp;*find_all_solutions*__<br />
 
 Example of puzzle board input file as below:
 
@@ -49,6 +49,36 @@ destroyer 2 3 vertical<br />
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v&nbsp;|1<br />
 +-----+<br />
 &nbsp;12121<br />
+
+## Inputs with Constraints
+for example:<br />
+
+board 4 5<br />
+rows 4 0 2 1<br />
+cols 1 2 1 2 1<br />
+cruiser<br />
+destroyer<br />
+submarine<br />
+submarine<br />
+constraint 0 2 \<<br />
+
+The last line specified that there must be a horizontal ship starting from location (0,2)
+
+## Inputs with Unknown Sums or Unknown Ship Types
+for example:<br />
+
+board 4 5
+rows ? 0 2 1
+cols 1 2 1 ? 1
+cruiser
+destroyer
+submarine
+unknown
+constraint 0 2 <
+
+The ? might range from 1 to 7
+
+
 
 # What I Learned
 * Recursion
